@@ -1,6 +1,5 @@
 I've received the below code from HR 
 
-/*
 using System.Text;
 
 namespace PointsBet_Backend_Online_Code_Test
@@ -35,8 +34,6 @@ namespace PointsBet_Backend_Online_Code_Test
         }
     }
 }
-
-*/
 From the above code i've found few issues 
 1. Misspelled method name
 2. No null/empty check for items
@@ -52,7 +49,6 @@ Here's a more basic version of that code, designed to be easier for beginners to
 4. It adds a comma and space after each item, except the last one.
 5. It returns the complete string with all items formatted nicely.
 
- /*
 using System.Text;
 
 namespace PointsBet_Backend_Online_Code_Test
@@ -95,5 +91,3 @@ namespace PointsBet_Backend_Online_Code_Test
         }
     }
 }
-
-*/
